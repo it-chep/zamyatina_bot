@@ -1,0 +1,15 @@
+*.sqlite3
+*.log
+.DS_Store
+.idea
+.project
+.pydevproject
+.vscode
+.devcontainer
+.venv
+.env
+/dumps
+# Python-related ignores
+*.pyc
+*.pyo
+*.file
