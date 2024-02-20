@@ -73,7 +73,7 @@ DATABASES = {
 # BOT CONFIG
 BOT_TOKEN = os.getenv('BOT_TOKEN')
 TEST_TOKEN = os.getenv('TEST_TOKEN')
-
+WEBHOOK_URL = os.getenv('WEBHOOK_URL')
 
 AUTH_PASSWORD_VALIDATORS = [
     {

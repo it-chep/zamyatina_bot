@@ -40,6 +40,8 @@ services:
       - DB_NAME=${DB_NAME}
       - DB_PORT=${DB_PORT}
       - DB_HOST=${DB_HOST}
+      - BOT_TOKEN=${BOT_TOKEN}
+      - WEBHOOK_URL=${WEBHOOK_URL}
       - DEBUG=${DEBUG}
       - ENVIRONMENT_TYPE=docker
 
