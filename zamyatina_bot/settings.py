@@ -8,6 +8,13 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['*']
 
+CSRF_TRUSTED_ORIGINS = ['http://zamyatinabot.ru', 'http://www.zamyatinabot.ru',
+                        'https://www.zamyatinabot.ru', 'https://zamyatinabot.ru', 'http://127.0.0.1', ]
+
+ALLOWED_HOSTS = ['zamyatinabot.ru', 'www.zamyatinabot.ru', 'api.telegram.org', '0.0.0.0',
+                  '127.0.0.1', '81.200.144.45', 'api.ipify.org', 'localhost',
+                  'localhost127.0.0.1[::1]']
+
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
