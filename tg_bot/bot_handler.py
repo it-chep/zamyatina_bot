@@ -72,7 +72,7 @@ class Handler:
         bot.send_message(message.chat.id, 'Супер, держи наши дополнительные материалы:')
 
     @staticmethod
-    @bot.message_handler(commands='statistic_users')
+    @bot.message_handler(commands=['statistic_users'])
     def statistic_users(message, ):
         bot.send_message(message.chat.id, f'Пользователей в боте: {TgBot.objects.all().count()}')
 
