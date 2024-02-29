@@ -12,11 +12,11 @@ from tg_bot.models import TgBot
 bot = telebot.TeleBot(settings.BOT_TOKEN)
 
 
-def set_bot_webhook():
-    bot.set_webhook(f'{settings.WEBHOOK_URL}/{settings.BOT_TOKEN}/')
+# def set_bot_webhook():
+#     bot.set_webhook(f'{settings.WEBHOOK_URL}/{settings.BOT_TOKEN}/')
 
 
-set_bot_webhook()
+# set_bot_webhook()
 
 
 @csrf_exempt
