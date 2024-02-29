@@ -69,7 +69,14 @@ class Handler:
         user.get_bonus = True
         user.save()
 
-        bot.send_message(message.chat.id, 'Супер, держи наши дополнительные материалы:')
+        bot.send_message(
+            chat_id=message.chat.id,
+            text=(
+                'Супер, держи наши дополнительные материалы:'
+                '\n\nhttps://youtu.be/nPvJDkDbijs'
+                '\n\nhttps://drive.google.com/drive/mobile/folders/1l915svwAGaSQluLHmiaCodsJFt8Rv3pn'
+            )
+        )
 
     @staticmethod
     @bot.message_handler(commands=['statistic_users'])
